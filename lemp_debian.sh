@@ -27,7 +27,7 @@ sudo rm /var/www/html/index.nginx-debian.html
 sudo touch /var/www/html/index.php
 sudo echo "<php? phpinfo(); ?>" >  /var/www/html/index.php
 echo "MYSQL INSTALLATION BEGIN"
-echo "Please Follow The Instructions Of MySQL Installation"
+echo "Please Follow The Instructions Of MySQL Installation, I Recommend Choose Y on everything, but make a choice on setting MYSQL root password"
 sudo mysql_secure_installation
 echo "Refresh Services"
 sudo service nginx restart
