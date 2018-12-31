@@ -1,4 +1,4 @@
-echo "LEMP Debian One-click Script v1.0"
+echo -e "\033[44;37m LEMP Debian One-click Script v1.0 \033[0m" 
 sudo apt update
 sudo apt install -y nginx php php-fpm php-mysql mysql-server
 echo "Essentials of LEMP Installation Finished, Creating Initial Configuration File for NGINX"
